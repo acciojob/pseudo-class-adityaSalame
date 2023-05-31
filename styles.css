@@ -2,6 +2,11 @@
 body{
 	display:flex;
 }
-.c1::first-line{
+.c1::before{
+	content:"Before Element";
+	color:red;
+}
+.c1:after{
+	content:"After Element";
 	color:red;
 }
